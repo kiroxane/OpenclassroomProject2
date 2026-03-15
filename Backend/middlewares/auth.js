@@ -18,3 +18,4 @@ module.exports = (req, res, next) => {
 		})
 	}
 }
+//Vérifie le JWT dans le header Authorization. Si valide, ajoute req.auth.userId et passe au suivant. Sinon, renvoie 401.

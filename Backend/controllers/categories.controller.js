@@ -18,3 +18,4 @@ exports.create = async (req, res) => {
 	})
 	return res.status(201).json(category)
 }
+//findAll (liste toutes les catégories) et create (non exposé dans les routes).

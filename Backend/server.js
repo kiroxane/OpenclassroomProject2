@@ -46,3 +46,4 @@ server.on('listening', () => {
 
 server.listen(port);
 
+//Le point d'entrée. Crée le serveur HTTP, normalise le port (par défaut 5678), gère les erreurs de démarrage (port déjà utilisé, etc.) et lance l'écoute.//

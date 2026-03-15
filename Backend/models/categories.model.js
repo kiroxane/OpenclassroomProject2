@@ -13,3 +13,4 @@ module.exports = (sequelize, DataTypes) => {
 	)
 	return Categories
 }
+//Modèles pour les utilisateurs et catégories (non lus mais utilisés via index.js).
