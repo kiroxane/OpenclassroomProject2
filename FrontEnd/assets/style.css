@@ -3,6 +3,7 @@
    License: none (public domain)
 */
 
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -23,6 +24,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -30,6 +32,11 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background: #FFFEF8;
+	display: flex;
+    flex-direction: column;
+    height: 100vh;
+
 }
 ol, ul {
 	list-style: none;
@@ -47,11 +54,12 @@ table {
 	border-spacing: 0;
 }
 /** end reset css**/
-body {
+.container {
 	max-width: 1140px;
 	margin:auto;
 	font-family: 'Work Sans' ;
 	font-size: 14px;
+	flex: 1;
 }
 header {
 	display: flex;
@@ -70,6 +78,7 @@ h1{
 	font-weight: 800;
 	color: #B1663C
 }
+
 
 h1 > span {
 	font-family: 'Work Sans';
@@ -93,6 +102,23 @@ nav ul {
 nav li {
 	padding: 0 10px;
 	font-size: 1.2em;
+	font-family: Work Sans;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 100%;
+	letter-spacing: 0%;
+	text-align: center;
+}
+#login-1{
+	color: inherit;
+  text-decoration: none;
+}
+ nav img{
+	width: 22px;
+    height: 22px;
+
+
 }
 
 li:hover {
@@ -209,8 +235,107 @@ input[type="submit"]{
 }
 
 footer nav ul {
-	display: flex;
+    width: 100%; 
+	height: 60px;
+    background: #FFFFFF;
+    display: flex;
 	justify-content: flex-end;
-	margin: 2em
+	/* margin: 2em ; */
+	margin-left: 0;
+	margin-right: 0;
+    
+
 }
+
+
+
+/*Css pour la page de connexion*/
+#login-page{
+	
+font-weight: 600;
+
+
+}
+
+#login{
+
+	margin-left: 545px;
+	margin-bottom: 60px;
+	margin-top: 100px;
+	
+}
+#form-login input{
+	margin-top: 7px;
+	margin-bottom: 30px;
+	margin-left: 406px ;
+	margin-right: 531px;
+	width: 379px;
+    height: 51px; 
+	background: #FFFFFF;
+    box-shadow: 0px 4px 14px 0px #00000017;
+	border: none;
+
+
+
+
+}
+#form-login label{
+
+margin-left: 406px ;
+font-family: Work Sans;
+font-weight: 500;
+font-style: Medium;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+#form-login #btn{
+	margin-left: 506px;
+	width: 179px;
+	height: 36px;
+	border-radius: 60px;
+    background: #1D6154;
+	border: none;
+	margin-top: 7px;
+	color: #FFFFFF
+}
+#p{
+	margin-left: 527px;
+	margin-top: 28px;
+	color: black;
+	text-decoration: underline;
+}
+.footer{
+width: 1440px;
+height: 60px;
+background: #FFFFFF;
+margin: 0;
+
+}
+#end{
+	color: black;
+	text-decoration: underline;
+	font-family: Work Sans;
+	font-weight: 300;
+	font-style: Light;
+	font-size: 14px;
+	line-height: 100%;
+	letter-spacing:0%;
+	margin-top:24px ;
+	margin-bottom: 20px;
+	margin: left 1224px; ;
+	margin-right:107px ;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
 
