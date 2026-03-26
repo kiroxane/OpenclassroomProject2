@@ -240,7 +240,7 @@ footer nav ul {
     background: #FFFFFF;
     display: flex;
 	justify-content: flex-end;
-	/* margin: 2em ; */
+	
 	margin-left: 0;
 	margin-right: 0;
     
@@ -329,12 +329,168 @@ margin: 0;
 	text-decoration: none;
 }
 
+#edit-bar{
+	
+    background: #000000;
+	color: #FFFFFF;
+	display:none
+	 
+}
+#edit-bar i {
+	color: #FFFFFF;
+    margin-left: 650px;
+    margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 11px;
+	font-size: 16px;
+	
+
+ 
+}
+#edit-bar p{
+	margin-top: 20px;
+	font-family: Work Sans;
+	font-weight: 400;
+	font-style: Regular;
+	font-size: 16px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	text-align: center;
+
+}
+
+
+#portfolio a{
+margin-left: 31px;
+color: #000000;
+font-family: Work Sans;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
 
 
 
+}
+#portfolio i{
+	margin-right: 11px;
+}
+
+ #modal-overlay { 
+	position: fixed;
+	top:0;
+	left:0;
+	background: #0000004D;
+    height: 100%;
+    width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+ }
+  
+  .modal {
+   background: white;
+   border-radius: 10px;
+   width: 630px;
+   margin-right: 105px;
+   position: relative;
+   align-items: center;
+   /* margin-top: 200px; */
+
+  
+   
+  }
+   .modal h3{
+	width: 173px;
+	height: 30px;
+	opacity: 1;
+	font-family: Work Sans;
+	font-weight: 400;
+	font-style: Regular;
+	font-size: 26px;
+	line-height: 100%;
+	letter-spacing: 0%;
+	text-align: center;
+	margin-left: 209px;
+	margin-top: 60px;
+	margin-bottom: 47px;
+   }
+   #btn-add-photo{
+	width: 237px;
+	height: 36px;
+	border-radius: 60px;
+	background: #1D6154;
+	text-align: center;
+	margin-left: 195px;
+	border: none;
+	margin-top: 7px;
+	color: #FFFFFF;
+	margin-top:38px;
+	margin-bottom: 48px;
+
+   }
+   hr{
+	width: 420px;
+	margin-left:105px ;
+	margin-right: 105px;
+	margin-top: 68px;
 
 
 
+border-width: 1px;
+
+   }
+  .close-modal { 
+   position: absolute;
+    top: 10px;
+	right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+   
+  }
+.modal-gallery {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 10px;
+	  margin-left:105px ;
+	  margin-right:105px ;
+	 
+  }
+
+  .modal-gallery img {
+      width: 76px;
+      height: 102px;
+      object-fit: cover;
+
+  }
+
+    .modal-gallery i {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      background: black;
+      color: white;
+      padding: 5px;
+      cursor: pointer;
+      font-size: 12px;
+  }
+
+.modal-gallery figure {
+      position: relative;
+      margin: 0;
+  }
+
+
+.modal { 
+	max-height: 90vh;                                                                                                    
+  overflow-y: auto;   
+}                                
+  
 
 
 
