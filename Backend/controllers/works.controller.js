@@ -34,3 +34,6 @@ exports.delete = async (req, res) => {
 	}
 
 }
+
+
+//Logique métier des projets : findAll (liste avec catégorie incluse), create (nouveau projet avec URL d'image), delete (suppression par ID).

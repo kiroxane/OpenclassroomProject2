@@ -17,3 +17,4 @@ module.exports = (sequelize, DataTypes) => {
 	)
 	return Users
 }
+//Modèle Works avec deux champs : title (string) et imageUrl (string), sans timestamps.

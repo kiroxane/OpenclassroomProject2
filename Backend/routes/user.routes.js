@@ -6,3 +6,8 @@ router.post('/login', userCtrl.login);
 //router.post('/signup', userCtrl.signup);
 
 module.exports = router;
+
+
+//Un seul endpoint actif :
+
+//POST /api/users/login — connexion (le signup est commenté)

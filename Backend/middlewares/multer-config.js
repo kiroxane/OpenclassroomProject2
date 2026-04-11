@@ -22,3 +22,6 @@ const storage = multer.diskStorage({
 })
 
 module.exports = multer({storage}).single('image')
+
+
+//Gère l'upload de fichier image (jpg/jpeg/png/webp). Sauvegarde dans ./images avec un nom unique (nom original + timestamp).

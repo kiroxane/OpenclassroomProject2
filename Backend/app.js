@@ -25,3 +25,12 @@ app.use('/api/categories', categoriesRoutes);
 app.use('/api/works', worksRoutes);
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs))
 module.exports = app;
+
+
+//Configure l'application Express :
+
+//Active CORS, JSON, helmet (sécurité)//
+//Sert les images statiques sur /images//
+//Connecte la base de données (Sequelize)//
+//Monte les 3 routes API : /api/users, /api/categories, /api/works
+//Monte la doc Swagger sur /api-docs//

@@ -28,3 +28,8 @@ db.works.belongsTo(db.users, {
 });
 
 module.exports = db;
+
+//Initialise Sequelize, charge les 3 modèles et définit les relations :
+
+//Category → a plusieurs Works
+//Work → appartient à une Category et à un User
