@@ -45,3 +45,6 @@ exports.login = async (req, res) => {
 
 	}
 }
+
+
+//signup (hash du mot de passe avec bcrypt + création user) et login (vérification bcrypt + génération JWT valable 24h).

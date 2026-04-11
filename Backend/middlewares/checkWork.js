@@ -23,3 +23,7 @@ module.exports = (req, res, next) => {
 	}
 
 }
+
+
+//Valide les données d'un nouveau projet avant création : vérifie que title, categoryId, userId et imageUrl sont tous présents et valides. Renvoie 400 sinon.
+

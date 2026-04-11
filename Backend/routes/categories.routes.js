@@ -8,3 +8,8 @@ router.get('/', categoriesCtrl.findAll);
 
 
 module.exports = router;
+
+
+//Un seul endpoint actif :
+
+//GET /api/categories — liste toutes les catégories (public)
