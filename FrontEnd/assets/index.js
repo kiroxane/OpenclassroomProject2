@@ -144,6 +144,9 @@ fetch("http://localhost:5678/api/works")
 .then(function(works){
     allWorks=works;
     displayWorks(works)
+})
+.catch(function(error){
+    console.error("Erreur lors du chargement des projets :", error)
 });
 
 fetch("http://localhost:5678/api/categories")
